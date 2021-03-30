@@ -7,7 +7,7 @@ int main()
 {
 	// Get input.
 	string FAFile = R"(.\my_FA.csv)";
-	string StringToTest = "1";
+	string StringToTest = "1";	// TODO: read strings from a file
 
 	// Build a Finite Automata from file.
 	FiniteAutomata myFA (FAFile);
