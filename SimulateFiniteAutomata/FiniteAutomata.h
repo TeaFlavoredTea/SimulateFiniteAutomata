@@ -1,11 +1,13 @@
 #pragma once
 #include <fstream>
+#include <iostream>
+#include <sstream>
+#include <string>
 #include <unordered_map>
 #include <vector>
 #include <unordered_set>
 #include <memory>
 #include "State.h"
-#include "HelperFunctions.h"
 
 class FiniteAutomata {
 public:
